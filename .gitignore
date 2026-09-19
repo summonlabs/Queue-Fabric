@@ -1,0 +1,41 @@
+
+# Build output
+build/
+out/
+cmake-build-*/
+install/
+*.o
+*.obj
+*.exe
+*.lib
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.idb
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+_deps/
+compile_commands.json
+*.cmake.stamp
+
+# Local runtime artifacts
+*.qfjournal
+*.qfsnap
+tmp/
+*.log
+*.dmp
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.swp
+*~
